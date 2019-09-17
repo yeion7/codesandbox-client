@@ -2,12 +2,11 @@ import React from 'react';
 import { observer, inject } from 'app/componentConnectors';
 
 import { Query } from 'react-apollo';
-
+import CreateNewSandbox from 'app/components/CreateNewSandbox';
 import getMostUsedTemplate from '../../../utils/get-most-used-template';
 
 import Sandboxes from '../../Sandboxes';
 
-import CreateNewSandbox from '../../CreateNewSandbox';
 import { RECENT_SANDBOXES_CONTENT_QUERY } from '../../../queries';
 
 const RecentSandboxes = ({ store }) => {

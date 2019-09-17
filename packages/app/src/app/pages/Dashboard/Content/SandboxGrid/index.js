@@ -14,6 +14,7 @@ import Table from 'react-virtualized/dist/commonjs/Table';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import downloadZip from 'app/store/providers/Utils/create-zip';
 import { getSandboxName } from '@codesandbox/common/lib/utils/get-sandbox-name';
+import { makeTemplates } from 'app/components/CreateNewSandbox/queries';
 import 'react-virtualized/styles.css';
 
 import SandboxItem from '../SandboxCard';
@@ -27,7 +28,6 @@ import {
   permanentlyDeleteSandboxes,
   setSandboxesPrivacy,
   undeleteSandboxes,
-  makeTemplates,
 } from '../../queries';
 
 type State = {

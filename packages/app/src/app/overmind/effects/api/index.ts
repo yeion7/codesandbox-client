@@ -21,7 +21,7 @@ import {
 } from '@codesandbox/common/lib/types';
 import { TemplateType } from '@codesandbox/common/lib/templates';
 import { client } from 'app/graphql/client';
-import { LIST_TEMPLATES } from 'app/pages/Dashboard/queries';
+import { LIST_TEMPLATES } from 'app/components/CreateNewSandbox/queries';
 
 let api: Api;
 
